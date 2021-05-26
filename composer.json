@@ -1,0 +1,16 @@
+{
+	"name": "queyenth/php-collection",
+	"version": "0.1.0",
+	"require": {
+		"php": "^7.4",
+		"queyenth/php-fp": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"Q\\Collection\\": "src/"
+		}
+	},
+	"require-dev": {
+		"atoum/atoum": "^3.4"
+	}
+}
